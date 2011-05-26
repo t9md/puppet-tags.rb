@@ -36,6 +36,7 @@ Also,it is important to let Vim know the word such like `apache::mod_ssl` as one
 
 To fix Vim's current directory to manifest's top directory.
 install vim-localrc
+
 * [ vim-localrc ]( http://www.vim.org/scripts/script.php?script_id=3393 )
 
 then
