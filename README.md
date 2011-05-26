@@ -1,6 +1,6 @@
 What is this?
 ==================================
-generate tags file for puppet's external DSL tags file
+Generate tags file for puppet's external DSL.
 I use Vim, but probablly work in Emacs.
 
 Currentry, only `class` and `define` are suported(=jump-able).
