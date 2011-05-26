@@ -22,7 +22,7 @@ Puppet の 外部 DSL( マニフェスト記述言語 )のタグジャンプ用�
 ==================================
 underlinetag
 ----------------------------------
-どのキーワードがタグジャンプできるかを知りたければ、 *underlinetag* プラグインを試してみてください。
+どのキーワードがジャンプできるかを知りたければ、 *underlinetag* プラグインを試してみて下さい。
 
 * [ underlinetag ]( http://www.vim.org/scripts/script.php?script_id=3494 )
 

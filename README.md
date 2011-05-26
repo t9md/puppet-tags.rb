@@ -1,9 +1,9 @@
 What is this?
 ==================================
 Generate tags file for puppet's external DSL.
-I use Vim, but probablly work in Emacs.
+I use Vim, but probably work in Emacs.
 
-Currentry, only `class` and `define` are suported(=jump-able).
+Currently, only `class` and `define` are supported(=jump-able).
 
 Usage
 ==================================
@@ -32,10 +32,10 @@ vim-localrc
 When you use tags file which is based on relative path, fixing Vim's current directory(`:pwd`) 
 to directory( where you generate tags on ) is very important to let vim find the proper file.
 
-Also,it is important to let Vim know the word such like `apache::mod_ssl` as one non-spearated keyword. 
+Also,it is important to let Vim know the word such like `apache::mod_ssl` as one non-separated keyword. 
 
-To fix Vim's current directory to manifest's top directory.
-install vim-localrc
+To fix Vim's current directory to manifest top directory. 
+Install vim-localrc
 
 * [ vim-localrc ]( http://www.vim.org/scripts/script.php?script_id=3393 )
 
@@ -48,4 +48,4 @@ then
     set isk+=:,-
     EOS
 
-isk is `iskeyword`. Including ':' is important, which is name space sparator.
+isk is `iskeyword`. Including ':' is important, which is name space separator.

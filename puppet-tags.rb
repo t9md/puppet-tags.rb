@@ -42,7 +42,7 @@ def help
   puts <<-EOS
 
  #{File.basename $0} [-f] [DIR]
- 
+
     -f : fullpath
     DIR: if omitted current directory is used
 
