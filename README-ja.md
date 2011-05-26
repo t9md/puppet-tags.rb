@@ -35,7 +35,7 @@ vim-localrc
 また、`apache::mod_ssl` のようなコロン(:)を含むクラス名、define名をひとかたまりのキーワードとして Vim に
 認識させる必要があります。
 
-Puppet の間にフェイスとのトップディレクトリに  Vim のカレントディレクトリを固定したい場合、
+Puppet のマニフェストのトップディレクトリに  Vim のカレントディレクトリを固定したい場合、
 *vim-localrc* プラグインを試してみて下さい。
 
 * [ vim-localrc ]( http://www.vim.org/scripts/script.php?script_id=3393 )
