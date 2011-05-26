@@ -3,6 +3,8 @@ What is this?
 generate tags file for puppet's external DSL tags file
 I use Vim, but probablly work in Emacs.
 
+Currentry, only `class` and `define` are suported(=jump-able).
+
 Usage
 ==================================
 
@@ -18,13 +20,23 @@ Usage
 
 Other Configuration
 ==================================
+underlinetag
+----------------------------------
 To highlight jump-able keyword in Vim, use underlinetag vim plugin.
 
-<http://www.vim.org/scripts/script.php?script_id=3494>
+* [ underlinetag ]( http://www.vim.org/scripts/script.php?script_id=3494 )
 
-To Vim's current directory to manifest's top directory.
+
+vim-localrc
+----------------------------------
+When you use tags file which is based on relative path, fixing Vim's current directory(`:pwd`) 
+to directory( where you generate tags on ) is very important to let vim find the proper file.
+
+Also,it is important to let Vim know the word such like `apache::mod_ssl` as one non-spearated keyword. 
+
+To fix Vim's current directory to manifest's top directory.
 install vim-localrc
-<http://www.vim.org/scripts/script.php?script_id=3393>
+* [ vim-localrc ]( http://www.vim.org/scripts/script.php?script_id=3393 )
 
 then
 
